@@ -1,0 +1,8 @@
+; ------------------------------------------------------------------------------
+; Display settings
+; ------------------------------------------------------------------------------
+
+DEVICE, DECOMPOSED=0, RETAIN=2
+WINDOW, /FREE, /PIXMAP, COLORS=256 & WDELETE, !D.WINDOW
+
+!path = !path + ':../oslo:' + '../segmentation:' + '/home/frubio/idl_programs/util'
